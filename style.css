@@ -382,6 +382,7 @@ section {
     height: auto; /* Maintain aspect ratio for both images and videos */
     border-radius: 2rem; /* Rounded corners for consistency */
     display: block; /* Ensures that the media does not overlap */
+    padding-bottom: 1rem;
 }
 
 
