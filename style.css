@@ -314,6 +314,48 @@ section {
     margin: auto 0;
 }
 
+/* EXPERIENCE SECTION */
+
+#experience {
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+.experience-section-container {
+    display: flex;
+    gap: 3rem;
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+
+.experience-text {
+    flex: 1;
+    background: white;
+    border: rgb(163, 163, 163) 0.1rem solid;
+    border-radius: 2rem;
+    padding: 1.5rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+}
+
+.experience-gallery {
+    flex: 1.2;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+}
+
+.gallery-image {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 1.5rem;
+    border: rgb(163, 163, 163) 0.1rem solid;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
 /* PROJECTS SECTION */
 
 #projects {

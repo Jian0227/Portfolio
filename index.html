@@ -14,6 +14,7 @@
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <!-- <li><a href="#experience">Experience</a></li> -->
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -30,6 +31,7 @@
             <div class="menu-links">
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
                 <!-- <li><a href="#experience" onclick="toggleMenu()">Experience</a></li> -->
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
@@ -42,11 +44,11 @@
         <div class="section__text">
             <p class="section__text__p1">Hello, I'm</p>
             <h1 class="title">Loo Jian Er</h1>
-            <p class="section__text__p2">Game Development Graduate</p>
+            <p class="section__text__p2">Programmer/Project Manager</p>
             <div class="btn-container">
                 <button 
                 class="btn btn-color-2" 
-                onclick="window.open('./assets/Loo Jian Er_TP065912_CV (1).pdf')"
+                onclick="window.open('./assets/Loo Jian Er_TP065912_CV (2).pdf')"
                 >
                     Download CV
                 </button>
@@ -113,7 +115,38 @@
             </div>
         </div>
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
-        onclick="location.href='./#projects'">
+        onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Highlights From My Journey</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-section-container">
+            <div class="text-container experience-text">
+                <p>
+                    My experience with the APU Game Development Club was as an Event Manager, where I organized community events from the ground up.
+                    I drafted proposals, worked with different departments in the club, and sometimes coordinated with third parties to keep everything aligned with our goals.
+                    On event days, I handled logistics such as scheduling, task distribution, and on-site troubleshooting to make sure everything ran smoothly.                
+                </p>
+                <p><br></p>
+                <p>
+                    Besides that, I also had experience in production, serving as a Junior Producer intern, where I would research the market trends of video game industry, 
+                    planning and designing the tasks of programming interns, and coordinated their workflows so that prototypes could be not only viable but also in line with our design objectives.
+                </p>
+            </div>
+            <div class="experience-gallery">
+                <div class="gallery-grid">
+                    <img src="./assets/FYP_SOCIAL_MEDIA.png" alt="FYP Talk" class="gallery-image" />
+                    <img src="./assets/SOCIALMEDIA.png" alt="3D Workshop" class="gallery-image" />
+                    <img src="./assets/APUGDC_Social_Media_Posting_1_1.png" alt="First DBS Talk" class="gallery-image" />
+                    <img src="./assets/APUGGW-AnnouncementPoster-SocialMedia1200px.png" alt="GGW" class="gallery-image" />
+                    <img src="./assets/AGM_Insta_.png" alt="AGM" class="gallery-image" />
+                    <img src="./assets/IMG_0094.png" alt="Gadot Workshop" class="gallery-image" />
+                    <img src="./assets/APU_-_Kay_Tang_Poster.png" alt="Second DBS Talk" class="gallery-image" />
+                    <img src="./assets/Bevy_Workshop_Poster.png" alt="Bevy Workshop" class="gallery-image" />
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
     </section>
     <section id="projects">
         <p class="section__text__p1">Browse My Recent Projects</p>
@@ -121,9 +154,60 @@
         <div class="experience-details-container">
             <div class="article-container">
                 <div class="details-container color-container">
+                    <h2 class="experience-sub-title project-title">Most Memorable Game Award Sarawak Game Jam 2025</h2>
+                    <div class="picture-container">
+                        <img src="assets/R3JatL.png" alt="Project 1" class="project-media" />
+                        <video class="project-media" controls>
+                            <source src="./assets/Unseen - Made with Clipchamp.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <h2 class="experience-sub-title project-title">Unseen</h2>
+                    <div class="text-container">
+                        <p>Roles: Programmer/Designer <br> <br>Contribution: 
+                            <br> - Concepted the theme and mechanics of the game 
+                            <br> - Coded and implemented the enemy system
+                            <br> - Coded and implemented the sights detecting system
+                            <br> - Coded and implemented the Main Menu UI 
+                        </p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://alirzj.itch.io/unseen'">
+                            Itch.io
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="article-container">
+                <div class="details-container color-container">
+                    <div class="picture-container">
+                        <img src="assets/Y70U37.png" alt="Project 2" class="project-media" />
+                        <video class="project-media" controls>
+                            <source src="./assets/Screen_Recording_20251202_203353_Chrome.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <h2 class="experience-sub-title project-title">Into Budspace</h2>
+                    <div class="text-container">
+                        <p>Roles: Programmer/Designer <br> <br>Contribution: 
+                            <br> - Concepted the theme and mechanics of the game 
+                            <br> - Coded and implemented the skill card shaders and system
+                            <br> - Coded and implemented the menu and intro UI
+                            <br> - Coded and implemented the particle effects 
+                        </p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://adnanzxgamer.itch.io/spacesurf'">
+                            Itch.io
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="article-container">
+                <div class="details-container color-container">
                     <h2 class="experience-sub-title project-title">2nd Runner Up of RedGames Jam 2024</h2>
                     <div class="picture-container">
-                        <img src="./assets/Buds & Bags.png" alt="Project 1" class="project-media" />
+                        <img src="./assets/Buds & Bags.png" alt="Project 3" class="project-media" />
                         <video class="project-media" controls>
                             <source src="./assets/Buds & Bags.mp4" type="video/mp4">
                             Your browser does not support the video tag.
@@ -149,7 +233,7 @@
             <div class="article-container">
                 <div class="details-container color-container">
                     <div class="picture-container">
-                        <img src="./assets/Screenshot (52).png" alt="Project 2" class="project-media" />
+                        <img src="./assets/Screenshot (52).png" alt="Project 4" class="project-media" />
                         <video class="project-media" controls>
                             <source src="./assets/Coffin Corps 0.91 Gameplay Video.mp4" type="video/mp4">
                             Your browser does not support the video tag.
@@ -171,57 +255,6 @@
                     </div>
                     <div class="btn-container">
                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://loo-jian-er.itch.io/coffin-corps'">
-                            Itch.io
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="article-container">
-                <div class="details-container color-container">
-                    <h2 class="experience-sub-title project-title">Most Memorable Game Award Sarawak Game Jam 2025</h2>
-                    <div class="picture-container">
-                        <img src="assets/R3JatL.png" alt="Project 3" class="project-media" />
-                        <video class="project-media" controls>
-                            <source src="./assets/Unseen - Made with Clipchamp.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <h2 class="experience-sub-title project-title">Unseen</h2>
-                    <div class="text-container">
-                        <p>Roles: Programmer/Designer <br> <br>Contribution: 
-                            <br> - Concepted the theme and mechanics of the game 
-                            <br> - Coded and implemented the enemy system
-                            <br> - Coded and implemented the sights detecting system
-                            <br> - Coded and implemented the Main Menu UI 
-                        </p>
-                    </div>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://alirzj.itch.io/unseen'">
-                            Itch.io
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="article-container">
-                <div class="details-container color-container">
-                    <div class="picture-container">
-                        <img src="assets/Y70U37.png" alt="Project 4" class="project-media" />
-                        <video class="project-media" controls>
-                            <source src="./assets/Screen_Recording_20251202_203353_Chrome.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <h2 class="experience-sub-title project-title">Into Budspace</h2>
-                    <div class="text-container">
-                        <p>Roles: Programmer/Designer <br> <br>Contribution: 
-                            <br> - Concepted the theme and mechanics of the game 
-                            <br> - Coded and implemented the skill card system
-                            <br> - Coded and implemented the menu and intro UI
-                            <br> - Coded and implemented the particle effects 
-                        </p>
-                    </div>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://adnanzxgamer.itch.io/spacesurf'">
                             Itch.io
                         </button>
                     </div>
@@ -269,6 +302,7 @@
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
                     <!-- <li><a href="#experience">Experience</a></li> -->
+                    <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
